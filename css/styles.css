@@ -4,6 +4,8 @@
     --fonte: font-family: 'Roboto', sans-serif;
     --bg-color: #282A3A;
     --cor-primaria: #D6E4E5;
+    --primeira-cor-botao: #F1D3B3;
+    --segunda-cor-botao: #8B7E74;
 }
 
 body{
@@ -42,4 +44,19 @@ h3{
     font-size: 3em;
     padding: 5px;
     margin: 10px;
+}
+
+button{
+    background-color: var(--primeira-cor-botao);
+    border: none;
+    border-radius: 5px;
+    width: 13%;
+    height: 2em;
+    font-size: 1em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--segunda-cor-botao);
+    color: var(--cor-primaria);
+    transition: 0.5s;
 }
